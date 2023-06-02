@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="RtbAboutUs.Text" xml:space="preserve">
+    <value>	Welcome to our Grade Tracking Application, the ultimate tool for students who want to stay on top of their academic progress. Our application was designed with students in mind, to help them manage their busy schedules, track their grades, and stay organized.
+
+We understand that students have a lot on their plate, with classes, homework, exams, extracurricular activities, and other commitments. That's why we created this app - to help you keep track of everything in one place, and make your life easier.
+
+Our app features three main components: a To-Do list, a Schedule, and a Grade Tracker.
+
+The To-Do list allows you to add tasks, assignments, and projects, and check them off as you complete them. You can set reminders and due dates to help you stay on track and prioritize your workload.
+
+The Schedule component lets you enter your class schedule, as well as any other appointments or events you have. You can customize your schedule to fit your needs, and easily see what you have coming up at a glance.
+
+The Grade Tracker lets you keep track of your grades for each class, so you can monitor your progress and identify areas where you need to improve. You can input your grades for each assignment or exam, and the app will calculate your overall grade for the class.
+
+Our Grade Tracking Application is user-friendly and intuitive, so you can start using it right away. We are constantly working to improve the app and add new features based on feedback from our users.
+
+Thank you for choosing our app to help you stay organized and on top of your academic game. If you have any questions or suggestions, please don't hesitate to contact us. We're here to help you succeed!</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="PictureBox1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        jfVWV//OSxIAsAJOT3elbrS3qjvTqQkAWCHHp2tTN96H2zXpCQkAWFH1DIF/T92Qb7Zvp99LAMAaOCqd
+        l/4+bfYlhOuZBTelen//+j4AwBqqXw2cn3anW9MdaU+qsa+38a3/fUuq/7/ec6A+HwAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAADtGuXf8P9DVj3KN65iwAAAAASUVORK5CYII=
+</value>
+  </data>
+</root>
